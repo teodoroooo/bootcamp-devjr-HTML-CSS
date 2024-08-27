@@ -5,22 +5,40 @@
 }
 
 body {
-    background-color: #607848;
+    background-color: #01080E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-    background-color: #f0f0d8;
+    background-color: #D7F9FF;
     margin: auto;
     width: 600px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .header {
-    padding: 20px;
+    padding: 40px;
 }
 
 .flex-container{
     display: flex;
-    background-color: #604848;
+    background-color: #9CD33B;
     justify-content: space-around;
     padding: 20px;
+}
+
+.header-title{
+    color: #9CD33B;
+    font-weight: 800;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.second-title{
+    color: #6E9BA4;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px;
 }
