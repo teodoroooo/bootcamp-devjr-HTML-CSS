@@ -1,0 +1,26 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #607848;
+}
+
+.container {
+    background-color: #f0f0d8;
+    margin: auto;
+    width: 600px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #604848;
+    justify-content: space-around;
+    padding: 20px;
+}
