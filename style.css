@@ -81,3 +81,7 @@ body {
     border-radius: 10px;
     border: none;
 }
+
+.image-group {
+    text-align: center;
+}
